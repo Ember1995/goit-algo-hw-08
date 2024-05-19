@@ -24,6 +24,7 @@ def min_cost_of_connection(cables):
     return total_cost
 
 if __name__ == "__main__":
+    
     # Тестування
     cables = [10, 23, 74, 5, 46, 35, 21, 64]
     print("Мінімальні загальні витрати:", min_cost_of_connection(cables))
